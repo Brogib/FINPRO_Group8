@@ -142,9 +142,9 @@ void BMIFormula (){
 	else if (bmi >= 25 && bmi <= 29.9){
         printf ("=Body weight analysis=: You're at obese level 1 category");
         printf(" We suggest You to do this exercise\n");
-        printf(" 1. Endurance jogging 30 minutes\n");
+        printf(" 1. Endurance jogging 30 menit\n");
         printf("    Note : In this exercise, you only need to do jogging at low pace or even walking\n");
-        printf("    The most important is that yo have to maintain that pace till 30 minutes\n");
+        printf("    The most important is that yo have to maintain that pace till 30 menit\n");
         printf(" 2. Tempo run 5Km\n");
         printf("    Note : In first Km you have need to jogging with your pace\n");
         printf("    In second Km you have lower your pace and for next Km you have to up your pace\n");
@@ -157,6 +157,44 @@ void BMIFormula (){
 }
 
 int main(){
+    int option, muscle_exe;
+    char done[2];
 
+	do{
+		option = main_data(new_user);
+		switch (option){
+			case 1:
+			do{
+				new_user = 0;
+				muscle_exe = gain_muscle();
+				switch (muscle_exe){
+					case 1:
+					upperbody_exercise();
+					printf("\n done? input 'y' then enter...!");
+					scanf("%s" , done);
+					break;
+					case 2:
+                            		lowerbody_exercise();
+                           		printf("\n Done? Input 'y' then Enter...! ");
+                           		scanf("%s", done);
+                            		break;
+					case 3:
+                            		corebody_exercise();
+                            		printf("\n Done? Input 'y' then Enter...! ");
+                            		scanf("%s", done);
+                            		break;
+					case 4:
+				}
+			} while (muscle_exe !=4);
+			break;
+			case 2:
+				new_user =0;
+				BMIFormula();
+				printf("\n done? input 'y' then enter...!");
+				scanf("%s" , done);
+				break;
+		}
+	} while (option !=3);
+	return 0;
 
 };
