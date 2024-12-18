@@ -37,6 +37,23 @@ int main_data(int new_user) {
     return option;
 }
 
+void upperbody_exercise() {
+    printf("=-----------------------------------------------=\n");
+    printf("      HOME EXERCISE PROGRAM FOR (UPPER BODY)     \n");
+    printf("=-----------------------------------------------=\n");
+    printf("  1. Regular Push up 10 repetition x 3 sets.     \n");
+    printf("     Rest per set 30 seconds                     \n");
+    printf("  Rest 2 minutes                                 \n");
+    printf("  2. Triangle Push up 10 repetition x 3 sets.    \n");
+    printf("     Rest per set 30 seconds                     \n");
+    printf("  Rest 2 minutes                                 \n");
+    printf("  3. Wide Push up 10 repetition x 3 sets.        \n");
+    printf("     Rest per set 30 seconds                     \n");
+    printf("  4. Chair dips 20 repetition x 3 sets.          \n");
+    printf("     Rest per set 30 seconds                     \n");
+    printf("=-----------------------------------------------=\n");
+}
+
 int main(){
 
 
