@@ -187,11 +187,14 @@ int main(){
 				}
 			} while (muscle_exe !=4);
 			break;
+			case 2:
+				new_user =0;
+				BMIFormula();
+				printf("\n done? input 'y' then enter...!");
+				scanf("%s" , done);
+				break;
 		}
-		
-	}
-
-
-
+	} while (option !=3);
+	return 0;
 
 };
