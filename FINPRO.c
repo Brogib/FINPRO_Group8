@@ -110,7 +110,10 @@ void BMIFormula (){
 		printf ("Food containing high protein:\n1. meats\n2. fish\n3. eggs\n 4. dairy products\n5. nuts");
 		printf ("Food containing high carbs:\n1. oats\n2. quinoa\n3. fruits (oranges, banana, blueberries, etc.)\n4. sweet potato\n5. buckwheat");
 	}
-
+	else if (bmi>=18.5 && bmi<=22.9){
+		printf ("=Body weight analysis=: You're at normal weight category");
+		printf ("Good work! keep it up\n");	
+	}
 }
 
 int main(){
