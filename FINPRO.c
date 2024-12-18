@@ -160,5 +160,38 @@ int main(){
     int option, muscle_exe;
     char done[2];
 
+	do{
+		option = main_data(new_user);
+		switch (option){
+			case 1:
+			do{
+				new_user = 0;
+				muscle_exe = gain_muscle();
+				switch (muscle_exe){
+					case 1:
+					upperbody_exercise();
+					printf("\n done? input 'y' then enter...!");
+					scanf("%s" , done);
+					break;
+					case 2:
+                            		lowerbody_exercise();
+                           		printf("\n Done? Input 'y' then Enter...! ");
+                           		scanf("%s", done);
+                            		break;
+					case 3:
+                            		corebody_exercise();
+                            		printf("\n Done? Input 'y' then Enter...! ");
+                            		scanf("%s", done);
+                            		break;
+					case 4:
+				}
+			} while (muscle_exe !=4);
+			break;
+		}
+		
+	}
+
+
+
 
 };
