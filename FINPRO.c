@@ -124,7 +124,7 @@ void BMIFormula (){
         printf("Also, tryout our other feature on how to gain muscle\n");
         printf("KEEP STRONG AND REMEMBER YOUR PURPOSE\n");
 	}
-	else if (bmi >= 25 && bmi <= 29.9) {
+	else if (bmi >= 25 && bmi <= 29.9){
         printf ("=Body weight analysis=: You're at obese level 1 category");
         printf(" We suggest You to do this exercise\n");
         printf(" 1. Endurance jogging 30 menit\n");
@@ -135,7 +135,10 @@ void BMIFormula (){
         printf("    In second Km you have lower your pace and for next Km you have to up your pace\n");
         printf("    Repeat the tempo until you reach 5Km\n");
 	}
-
+	else{
+		printf ("=Body weight analysis=: You're at obese level 2 category");
+        printf(" We suggest You to consule with nutrition specialist to avoid complication disease\n");
+	}
 }
 
 int main(){
