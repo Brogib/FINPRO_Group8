@@ -102,6 +102,15 @@ void BMIFormula (){
     idealweight = (height - 100) - ((height - 100) * 0.1);
     height = height / 100;
     bmi = weight / pow(height, 2);
+    
+    printf("Your BMI analysis: \n");
+	if (bmi<18.5){
+		printf ("=Body weight analysis=: You're at underweight category");
+		printf ("We suggest You to increase calories intake and eat protein and carbs\n:");
+		printf ("Food containing high protein:\n1. meats\n2. fish\n3. eggs\n 4. dairy products\n5. nuts");
+		printf ("Food containing high carbs:\n1. oats\n2. quinoa\n3. fruits (oranges, banana, blueberries, etc.)\n4. sweet potato\n5. buckwheat");
+	}
+
 }
 
 int main(){
