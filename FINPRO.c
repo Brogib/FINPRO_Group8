@@ -25,15 +25,15 @@ int main_data(int new_user) {
         printf("    Age    : %d\n", user.age);
         printf("    Gender (M/F): %s\n", user.gender);
     }
-    printf("=------------------------------=\n");
-    printf("         FITNESS PURPOSE        \n");
-    printf("=------------------------------=\n");
-    printf("     1. Gain Muscle             \n");
-    printf("     2. Lose Weight             \n");
-    printf("     3. (END)                   \n");
-    printf("=------------------------------=\n");
+    printf("=----------------------------------=\n");
+    printf("         FITNESS PURPOSE            \n");
+    printf("=----------------------------------=\n");
+    printf("     1. Gain Muscle                 \n");
+    printf("     2. Lose Weight or gain weight  \n");
+    printf("     3. (END)                       \n");
+    printf("=----------------------------------=\n");
     printf("     Input your choice (1-3) : "); scanf("%d", &option);
-    printf("=------------------------------=\n");
+    printf("=----------------------------------=\n");
     return option;
 }
 
