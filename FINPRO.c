@@ -90,6 +90,20 @@ void corebody_exercise() {
     printf("     Rest per set 30 seconds                      \n");
     printf("=------------------------------------------------=\n");
 }
+
+void BMIFormula (){
+	float height, weight, bmi, idealweight;
+	
+	printf("Input your height (in cm): ");
+	scanf("%f", &height);
+	printf("Input your weight (in cm): ");
+	scanf("%f", &weight);
+	
+    idealweight = (height - 100) - ((height - 100) * 0.1);
+    height = height / 100;
+    bmi = weight / pow(height, 2);
+}
+
 int main(){
 
 
