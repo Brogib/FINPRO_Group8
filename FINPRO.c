@@ -8,6 +8,9 @@ typedef struct member {
     char gender [2];
 } member ;
 
+member user;
+int new_user = 1;
+
 int main(){
 
 
