@@ -35,7 +35,7 @@ int main_data(int new_user) {
     printf("     Input your choice (1-3) : "); scanf("%d", &option);
     printf("=------------------------------=\n");
     return option;
-    }
+}
 
 int main(){
 
