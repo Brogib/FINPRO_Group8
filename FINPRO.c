@@ -54,6 +54,23 @@ void upperbody_exercise() {
     printf("=-----------------------------------------------=\n");
 }
 
+void lowerbody_exercise() {
+    printf("=-----------------------------------------------=\n");
+    printf("      HOME EXERCISE PROGRAM FOR (LOWER BODY)     \n");
+    printf("=-----------------------------------------------=\n");
+    printf("  1. Squad 12 repetition x 3 sets.               \n");
+    printf("     Rest per set 30 seconds                     \n");
+    printf("  Rest 2 minutes                                 \n");
+    printf("  2. Jump Squad 12 repetition x 3 sets.          \n");
+    printf("     Rest per set 30 seconds                     \n");
+    printf("  Rest 2 minutes                                 \n");
+    printf("  3. Lungees 30 repetition x 3 sets.             \n");
+    printf("     Rest per set 1 minutes                      \n");
+    printf("  Rest 2 minutes                                 \n");
+    printf("  4. Jumping rope 50 repetition x 3 sets.        \n");
+    printf("     Rest per set 30 seconds                     \n");
+    printf("=------------------------------------------------=\n");
+}
 int main(){
 
 
