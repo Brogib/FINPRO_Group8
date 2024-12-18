@@ -37,7 +37,7 @@ int main_data(int new_user) {
     printf("=----------------------------------=\n");
     return option;
 }
-int gain_musle() {
+int gain_muscle() {
     int option;
     printf("=---------------------------=\n");
     printf("|     Gain Muscle Exercise  |\n");
