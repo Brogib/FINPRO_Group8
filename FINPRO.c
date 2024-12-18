@@ -36,6 +36,20 @@ int main_data(int new_user) {
     printf("=----------------------------------=\n");
     return option;
 }
+int gain_musle() {
+    int option;
+    printf("=---------------------------=\n");
+    printf("|     Gain Muscle Exercise  |\n");
+    printf("=---------------------------=\n");
+    printf("|    1. Upper Body          |\n");
+    printf("|    2. Lower Body          |\n");
+    printf("|    3. Core Body           |\n");
+    printf("|    4. (Back)              |\n");
+    printf("=---------------------------=\n");
+    printf("| Input your choice (1-4): "); scanf("%d", &option);
+    printf("=---------------------------=\n");
+    return option;
+}
 
 void upperbody_exercise() {
     printf("=-----------------------------------------------=\n");
