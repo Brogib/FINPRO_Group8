@@ -71,6 +71,25 @@ void lowerbody_exercise() {
     printf("     Rest per set 30 seconds                     \n");
     printf("=------------------------------------------------=\n");
 }
+
+void corebody_exercise() {
+    printf("=------------------------------------------------=\n");
+    printf("      HOME EXERCISE PROGRAM FOR (LOWER BODY)      \n");
+    printf("=------------------------------------------------=\n");
+    printf("  1. Plank for 1 minutes                          \n");
+    printf("  Rest 2 minutes                                  \n");
+    printf("  2. Side plank for 1 minutes                     \n");
+    printf("     Both left and right side                     \n");
+    printf("  Rest 2 minutes                                  \n");
+    printf("  3. sit up 20 repetition x 3 sets.               \n");
+    printf("     Rest per set 1 minutes                       \n");
+    printf("  Rest 2 minutes                                  \n");
+    printf("  4. Knee in crunch 20 repetition x 3 sets        \n");
+    printf("  Rest 2 minutes                                  \n");
+    printf("  5. High knees 20 repetition x 3 sets            \n");
+    printf("     Rest per set 30 seconds                      \n");
+    printf("=------------------------------------------------=\n");
+}
 int main(){
 
 
