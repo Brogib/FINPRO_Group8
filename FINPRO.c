@@ -114,6 +114,17 @@ void BMIFormula (){
 		printf ("=Body weight analysis=: You're at normal weight category");
 		printf ("Good work! keep it up\n");	
 	}
+	else if (bmi>22.9 && bmi>=24.9){
+		printf ("=Body weight analysis=: You're at overweight category");
+        printf("We suggest You to do this exercise in routine:\n");
+        printf("1. Endurance Jogging for 15 minutes\n");
+        printf("2. 3Km Jogging within average pace 7 or 8\n");
+        printf("3. Easy run 3Km within average pace under 6\n");
+        printf("In this program you have to push yourself.\n");
+        printf("Also, tryout our other feature on how to gain muscle\n");
+        printf("KEEP STRONG AND REMEMBER YOUR PURPOSE\n");
+	}
+
 }
 
 int main(){
